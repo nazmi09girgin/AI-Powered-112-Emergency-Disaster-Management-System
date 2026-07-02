@@ -5,6 +5,7 @@ from streamlit_folium import st_folium
 import sys
 import os
 import random
+import time
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
