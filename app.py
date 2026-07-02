@@ -11,7 +11,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 from src.model import AKOMClassifier, OLAY_TURLERI, ONCELIKLER, BIRIMLER
 from src.utils import get_ilce_koordinat, load_dataset, get_priority_color, get_event_icon, save_analysis
 import requests
-import time
+
 
 try:
     from audio_recorder_streamlit import audio_recorder
